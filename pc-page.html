@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Projects and Hobby</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <script src="random_phrases_generator.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <a href="./main-page.html" id="logo">
+            <h1>LOGO</h1>
+        </a>
+        <nav>
+            <ul role="presentation">
+                <li>
+                    <a href="./pc-page.html" class="page-points">My PC hobbie</a>
+                </li>
+                <li>
+                    <a href="./IT-page.html" class="page-points">IT career</a>
+                </li>
+                <!-- <li>
+                    <a href="#testPart" class="page-points">Check your knowledge about PC</a>
+                </li> -->
+                <li>
+                    <a href="./about.html" class="page-points">About</a>
+                </li>
+            </ul>
+        </nav>
+        <a id="telegram-icon" href="https://t.me/olgierdvoneveric" target="_blank">
+            <svg width="27px" height="27px" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <circle cx="16" cy="16" r="14" fill="url(#paint0_linear_87_7225)"></circle> <path d="M22.9866 10.2088C23.1112 9.40332 22.3454 8.76755 21.6292 9.082L7.36482 15.3448C6.85123 15.5703 6.8888 16.3483 7.42147 16.5179L10.3631 17.4547C10.9246 17.6335 11.5325 17.541 12.0228 17.2023L18.655 12.6203C18.855 12.4821 19.073 12.7665 18.9021 12.9426L14.1281 17.8646C13.665 18.3421 13.7569 19.1512 14.314 19.5005L19.659 22.8523C20.2585 23.2282 21.0297 22.8506 21.1418 22.1261L22.9866 10.2088Z" fill="white"></path> <defs> <linearGradient id="paint0_linear_87_7225" x1="16" y1="2" x2="16" y2="30" gradientUnits="userSpaceOnUse"> <stop stop-color="#37BBFE"></stop> <stop offset="1" stop-color="#007DBB"></stop> </linearGradient> </defs> </g></svg>
+        </a>
+    </header>
+    <main>
+        <div class="main-divs" style="margin-top:40px">
+            <div id="OwnPC">
+                <h2 id="setupAndThoughts" style="margin-top:0">
+                    Setup and thoughts
+                </h2>
+                <p class="aboutMyPC">
+                Let's talk about my build. It's:
+                </p>
+                <ul role="presentation">
+                    <li><span class="buildList">Rig:</span> Fractal Design Meshify 2</li>
+                    <li><span class="buildList">Processor:</span> AMD Ryzen 9 7950X</li>
+                    <li><span class="buildList">Motherboard:</span> MSI X670E ACE</li>
+                    <li><span class="buildList">RAM:</span> G.Skill Trident Z5 6000 2x16Gb</li>
+                    <li><span class="buildList">ROM:</span> Samsung 990 PRO</li>
+                    <li><span class="buildList">Cooling:</span> NZXT Kraken X73 360</li>
+                    <li><span class="buildList">GPU:</span> MSI RTX 4080 Suprim X</li>
+                    <li><span class="buildList">PSU:</span> Enermax Platimax 750W</li>
+                </ul>
+            </div>
+            <img src="./Rig photo.jpg" alt="Photo of rig" class="PC-photo" />
+        </div>
+        <p class="aboutMyPC">
+            First of all - rig, mid tower with possibility to put there an E-ATX motherboard, well ventilated and has 3 antidust meshes.
+            Next platform I've decided on am5 due to freshness and possibility to upgrade in future to newest CPU in the end of platform 
+            lifetime. I choosed a R9 7950X because of high boost clocks and multithread performance as well as comparly low wattage draw.
+            Next the most hard part on deciding of motherboard. 
+        </p>
+        <div class="main-divs">
+            <img src="./Romulo's PC.jpg" alt="Photo of rig" class="PC-photo" />
+            <div id="PCFriend">
+                <h2 id="aboutFriend">
+                    Friend's requirements and wishes
+                </h2>
+                <p>
+                My friend had using an Intel i7 8700K, but due to circut on motherboard or cpu itself. Thus, he had to buy new setup and he 
+                asked me to help with choise.<br/>
+                First of all we argue about what kind of programms he used to execute. The answer was games, but at the same time he was 
+                utilizing cpu power at Solid work. Thus we decided on Intel cpu due to more core count and relative price. Next, while Intel
+                cpus are near to limit of it's overclocking and powerdraw even on i5 is above 200W at boost state, we decided to save money and
+                buy a B760 chipset. Here I have decided to buy an Asus Strix motherboard due to it's optimal power stages to withstand with 
+                i5 13600k. And finally we bought a Corsair DDR5 6000MHz memory because novadays we have some limits if we using a DDR4 
+                memory in heavy workload scenario. 
+                </p>
+            </div>
+        </div>
+        <h2 id="testPart">Check your knowledge by simple test</h2>
+        <div class="main-divs" id="question-part">
+            <div id="knowledge">
+                <p id="question"></p>
+            </div>
+            <p id="announcementpart" class="announcement visuallyHidden hidden"></p>
+            <div id="answers">
+                <button class="answer" type="button" id="yesButton">Yes</button>
+                <button class="answer" type="button" id="noButton">No</button>
+            </div>
+        </div>
+    </main>
+</body>
+
+<footer>
+    <div>Nothing here now.</div>
+</footer>
+
+</html>
