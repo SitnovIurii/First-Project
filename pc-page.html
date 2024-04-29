@@ -33,7 +33,7 @@
         </a>
     </header>
     <main>
-        <div class="main-divs" style="margin-top:40px">
+        <div class="main-divs">
             <div id="OwnPC">
                 <h2 id="setupAndThoughts" style="margin-top:0">
                     Setup and thoughts
@@ -41,12 +41,12 @@
                 <p class="aboutMyPC">
                 Let's talk about my build. It's:
                 </p>
-                <ul role="presentation">
+                <ul role="presentation" class="rig-config">
                     <li><span class="buildList">Rig:</span> Fractal Design Meshify 2</li>
                     <li><span class="buildList">Processor:</span> AMD Ryzen 9 7950X</li>
                     <li><span class="buildList">Motherboard:</span> MSI X670E ACE</li>
                     <li><span class="buildList">RAM:</span> G.Skill Trident Z5 6000 2x16Gb</li>
-                    <li><span class="buildList">ROM:</span> Samsung 990 PRO</li>
+                    <li><span class="buildList">ROM:</span> Samsung 990 PRO 2Tb</li>
                     <li><span class="buildList">Cooling:</span> NZXT Kraken X73 360</li>
                     <li><span class="buildList">GPU:</span> MSI RTX 4080 Suprim X</li>
                     <li><span class="buildList">PSU:</span> Enermax Platimax 750W</li>
@@ -60,13 +60,24 @@
             lifetime. I choosed a R9 7950X because of high boost clocks and multithread performance as well as comparly low wattage draw.
             Next the most hard part on deciding of motherboard. 
         </p>
-        <div class="main-divs">
-            <img src="./Romulo's PC.jpg" alt="Photo of rig" class="PC-photo" />
+        <div class="main-divs" id="main-div-pc-page-rev">
             <div id="PCFriend">
                 <h2 id="aboutFriend">
-                    Friend's requirements and wishes
+                    Friend's PC and upgrade
                 </h2>
-                <p>
+                <ul role="presentation" class="rig-config">
+                    <li><span class="buildList">Rig:</span> Fractal Design Define R6</li>
+                    <li><span class="buildList">Processor:</span> Intel I7 9700K</li>
+                    <li><span class="buildList">Motherboard:</span> MSI Z390-A PRO</li>
+                    <li><span class="buildList">RAM:</span> Corsair Vengence LPX 2666MHz 2x16Gb</li>
+                    <li><span class="buildList">ROM:</span> Crucial MX500 1Tb</li>
+                    <li><span class="buildList">Cooling:</span> Cooler Master Hyper 212 Evo</li>
+                    <li><span class="buildList">GPU:</span> Asus RTX 2080 ROG Strix</li>
+                    <li><span class="buildList">PSU:</span> Corsair RM850x</li>
+                </ul>
+            </div>
+            <img src="./Romulo's PC.jpg" alt="Photo of rig" class="PC-photo" id="photosoffriendPC"/>
+            <p>
                 My friend had using an Intel i7 8700K, but due to circut on motherboard or cpu itself. Thus, he had to buy new setup and he 
                 asked me to help with choise.<br/>
                 First of all we argue about what kind of programms he used to execute. The answer was games, but at the same time he was 
@@ -75,8 +86,7 @@
                 buy a B760 chipset. Here I have decided to buy an Asus Strix motherboard due to it's optimal power stages to withstand with 
                 i5 13600k. And finally we bought a Corsair DDR5 6000MHz memory because novadays we have some limits if we using a DDR4 
                 memory in heavy workload scenario. 
-                </p>
-            </div>
+            </p>
         </div>
         <h2 id="testPart">Check your knowledge by simple test</h2>
         <div class="main-divs" id="question-part">
